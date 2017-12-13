@@ -1051,6 +1051,20 @@ Vue.use(__WEBPACK_IMPORTED_MODULE_0_buefy___default.a);
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+var app = new Vue({
+
+  el: '#app',
+  data: {}
+
+});
+
+$(document).ready(function () {
+
+  $('button.dropdown').hover(function (e) {
+
+    $(this).toggleClass('is-open');
+  });
+});
 
 /***/ }),
 /* 12 */
@@ -40264,7 +40278,7 @@ module.exports = Vue$3;
 /* 38 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleBuildError: Module build failed: \r\nundefined\r\n^\r\n      File to import not found or unreadable: node_modules/buefy/scss/buefy.\nParent style sheet: stdin\r\n      in C:\\projects\\devmarketer\\resources\\assets\\sass\\app.scss (line 16, column 1)\n    at runLoaders (C:\\projects\\devmarketer\\node_modules\\webpack\\lib\\NormalModule.js:195:19)\n    at C:\\projects\\devmarketer\\node_modules\\loader-runner\\lib\\LoaderRunner.js:364:11\n    at C:\\projects\\devmarketer\\node_modules\\loader-runner\\lib\\LoaderRunner.js:230:18\n    at context.callback (C:\\projects\\devmarketer\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at Object.asyncSassJobQueue.push [as callback] (C:\\projects\\devmarketer\\node_modules\\sass-loader\\lib\\loader.js:55:13)\n    at Object.<anonymous> (C:\\projects\\devmarketer\\node_modules\\async\\dist\\async.js:2257:31)\n    at Object.callback (C:\\projects\\devmarketer\\node_modules\\async\\dist\\async.js:958:16)\n    at options.error (C:\\projects\\devmarketer\\node_modules\\node-sass\\lib\\index.js:294:32)");
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);

@@ -1,6 +1,6 @@
 
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+//@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
 // Variables
 @import "variables";
@@ -11,6 +11,26 @@
 // Bulma
 @import "node_modules/bulma/bulma";
 
-@import "node_modules/font-awesome/scss/font-awesome";
+@import "node_modules/buefy/src/scss/buefy";
 
-@import "node_modules/buefy/scss/buefy";
+// custom sass pages
+@import "overrides";
+@import "helpers";
+@import "manage";
+@import "styles";
+
+
+.side-menu {
+
+  position:fixed;
+  height: 100vh;
+  width: 200px;
+  background-color: white;
+  overflow-y: scroll;
+  }
+.management-area {
+  position:absolute;
+  top: 4 rem;
+  left: 200px;
+  right: 0;
+  }
